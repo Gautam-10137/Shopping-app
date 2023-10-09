@@ -3,23 +3,26 @@ const Layout=()=>{
     return(
         <>
         <nav>
-            <div className="header">
-            <ul>
+            <div className="header" >
+                <p className="logo">FitFeet Fashions</p>
+            <ul >
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link className="link" to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/Blogs">Blogs</Link>
+                    <Link className="link" to="/Blogs">Blogs</Link>
                 </li>
                 <li>
-                    <Link to="/Contact">Contact</Link>
+                    <Link className="link" to="/Contact">Contact</Link>
                 </li>
                 <li>
-                    <Link to="/Aboutus">About</Link>
+                    <Link className="link" to="/Aboutus">About</Link>
                 </li>
 
             </ul>
+            
             </div>
+            
         </nav>
         <Outlet/>
         </>
